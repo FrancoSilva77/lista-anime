@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Tillana:wght@700&display=swap');
+
+:root {
+  --fuente-principal: 'Tillana', sans-serif;
+  --fuente-secundaria: 'Mulish', sans-serif;
+
+  --negro: #000;
+  --blanco: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--fuente-secundaria);
+  font-size: 1.6rem;
+}
+
+p {
+  color: var(--negro);
+  font-size: 2rem;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-family: var(--fuente-principal);
+  font-size: 4rem;
+}
+
+h2,
+h3 {
+  font-family: var(--fuente-secundaria);
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
